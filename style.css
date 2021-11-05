@@ -1,0 +1,77 @@
+/* *{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+} */
+body{
+    
+    font-family: sans-serif;
+   margin: auto;
+   
+}
+#query{
+    text-align: right;
+}
+.queryBox{
+    margin: auto;
+       
+}
+.container{
+    text-align: center;
+    
+    flex-wrap: wrap;
+   
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.external{
+    display: inline-block;    
+    border: 20px solid #d8dbdb;
+    border-radius: 10px;
+}
+input[type=text] {
+    width: 310px;
+    font-weight: bold; 
+    font-size: large; 
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.keys{
+    align-content: center;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: nowrap;
+    flex-direction: inline-block;
+    /* border: 2px solid #ffffff; */
+    
+}
+.key {
+    text-align: center;    
+   
+    font-size:x-large;
+    font-weight: bold;    
+    border: 5px solid rgb(235, 232, 232);    
+    padding: 15px 18px ;  
+    height: 20px;
+    width: 30px;
+
+}
+.key:hover{
+       background-color: violet;
+}
+#divide, #multiply, #minus, #plus, #equal{
+    background-color: rgb(255, 212, 20);
+   
+}
+
+
